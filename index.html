@@ -3,9 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Interactive 3D Scene</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <div id="wrapper">
+        <div class="viewport">
+          <div class="cube">
+            <div class="side">
+              <div class="cube-image">1</div>
+            </div>
+            <div class="side">
+              <div class="cube-image">
+                <div class="cub">
+                    <canvas id="canvas"></canvas>
+                    <div class="cub-image">
+                     <img src="./image.png" alt="image">
+                    </div>
+                    <ul class="cub-content">
+                            <li>Бесплатные 30 минут при регистрации.</li>
+                             <li>Стоимость минуты от 1 рубля.</li>
+                             <li>Покупайте минуты себе и делитесь ими.</li>
+                             <li>Покупка минут в подарок.</li>
+                             <li>Пополнение баланса другого аккаунта.</li>
+                             <li>Пополнение балансом мобильного телефона.</li>
+                             <li>Пополнение банковской картой, QR-кодом, СБП.</li>
+                             <li>Платите только за использованные секунды. </li>
+                             <li>Постоплата, рассрочка платежа  юр. лицам.</li>
+                    </ul>
+                 </div>
+              </div>
+            </div>
+            <div class="side">
+              <div class="cube-image">3</div>
+            </div>
+            <div class="side">
+              <div class="cube-image">4</div>
+            </div>
+            <div class="side">
+              <div class="cube-image">5</div>
+            </div>
+            <div class="side">
+              <div class="cube-image active">6</div>
+            </div>
+          </div>
+        </div>
+    </div>
+
     
+    
+    <script src="./cube.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
